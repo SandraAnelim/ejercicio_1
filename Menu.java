@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class Menu {
-    Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
     Boolean continuar = false;
     while (continuar) {
         System.out.println("Bienvenido al sistema de inventario");
@@ -54,4 +55,6 @@ public class Menu {
                 System.out.println("Opción no válida, intente nuevamente.");
         }
     }
+    }
+    
 }
